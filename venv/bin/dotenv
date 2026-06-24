@@ -1,6 +1,0 @@
-#!/home/dougw/dev/atlas/skills/agent_infrastructure/mcp-servers/excel-mcp-server/venv/bin/python3
-import sys
-from dotenv.__main__ import cli
-if __name__ == '__main__':
-    sys.argv[0] = sys.argv[0].removesuffix('.exe')
-    sys.exit(cli())

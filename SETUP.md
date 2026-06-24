@@ -12,7 +12,7 @@ This document describes the Python virtual environment setup for the Excel MCP S
 
 ### Virtual Environment
 - **Location:** `./venv/` (relative to this directory)
-- **Full Path:** `/home/dougw/dev/atlas/skills/agent_infrastructure/mcp-servers/excel-mcp-server/venv`
+- **Full Path:** `/home/dougw/dev/_global/skills/mcp_servers/excel-mcp-server/venv`
 - **Created:** 2026-06-01
 - **Python Version in venv:** 3.12.3
 
@@ -35,7 +35,7 @@ deactivate
 ### Verify Activation
 When activated, your shell prompt should be prefixed with `(venv)`:
 ```bash
-(venv) user@host:~/dev/atlas/skills/agent_infrastructure/mcp-servers/excel-mcp-server$
+(venv) user@host:~/dev/_global/skills/mcp_servers/excel-mcp-server$
 ```
 
 ## Installed Dependencies
@@ -140,7 +140,7 @@ The following packages were installed (78 total packages):
 ### Initial Setup (Already Completed)
 ```bash
 # Navigate to the excel-mcp-server directory
-cd atlas/skills/agent_infrastructure/mcp-servers/excel-mcp-server
+cd _global/skills/mcp_servers/excel-mcp-server
 
 # Create virtual environment
 python3 -m venv venv
